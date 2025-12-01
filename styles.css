@@ -113,13 +113,14 @@ body {
 .product-name {
     font-size: 24px;
     font-weight: 600;
-    padding: 5px;
-    margin: 0px;
+    padding-top: 10px;
+    margin: 0;
 }
 .product-price {
     font-size: 22px;
     font-weight: 600;
-    margin: 5px;
+    padding-bottom: 10px;
+    margin: 0;
 }
 .add-to-cart-btn {
     background-color: var(--primary-orange);
@@ -148,6 +149,20 @@ body {
     align-items: center;
     z-index: 10;    /* makes it stays on top of everything else*/
 }
+.footer a img {
+    width: 100%; 
+    height: 100%;
+}
+.nav-burger:hover img{
+    content: url(Images/Hover_Burgers_Icon.svg);
+}
+.nav-beverage:hover img{
+    content: url(Images/Hover_Beverages_Icon.svg);
+}
+.nav-dessert:hover img{
+    content: url(Images/Hover_Desserts_Icon.svg);
+}
+
 
 
 
