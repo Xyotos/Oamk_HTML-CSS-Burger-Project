@@ -375,8 +375,6 @@ body {
 @media (min-width: 1024px) {
     .main-content {
         max-width: 1200px;
-        padding: 40px;
-        display: grid;
         gap: 60px;
     }
     .product-card {
@@ -384,6 +382,7 @@ body {
     }
     .menu-title {
         font-size: 40px;
+        margin: 0;
     }
     .add-to-cart-btn {
         font-size: 20px;
